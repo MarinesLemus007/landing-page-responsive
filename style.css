@@ -44,7 +44,6 @@ body{
     background-color: white;
     padding: 0px 100px 0px 100px;
     margin-top: 84px;
-    height: 500px;
 }
 
 .section-title{
@@ -60,19 +59,18 @@ body{
     flex-direction: row;
     display: flex;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .section-colum-one{
     flex-direction: column;
     display: flex;
-    width: 40%;
     align-items: baseline;
 }
 
 .section-colum-two{
     flex-direction: column;
     display: flex;
-    width: 60%;
 }
 
 .section-colum-two img{
@@ -169,7 +167,6 @@ h1{
     display: flex;
     background-color: white;
     padding: 80px 100px 80px 100px;
-    height: 600px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -247,7 +244,8 @@ h1{
     flex-direction: row;
     display: flex;
     margin-top: 80px;
-    justify-content: space-evenly
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-four-colum-one{
@@ -336,4 +334,82 @@ margin: 0px 350px 16px;
 .fa-circle{
     font-size: 10px;
     color: #6c757d;
+}
+
+.section-six{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+}
+
+.form-contact{
+    background-color: #ffffff;
+    padding: 48px;
+    margin-top: 80px;
+}
+
+.form-name-row{
+    flex-direction: row;
+    display: flex;
+    margin: 0px 0px 48px;
+}
+
+.form-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-name-first, .form-name-last{
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    text-align: initial;
+    padding: 0px 15px;
+}
+
+.form-name-first label, .form-name-last label, .form-email label, .form-subject label, .form-message label{ 
+    margin: 0px 0px 10px;
+    color: #6c757d;
+}
+
+.form-name-first input, .form-name-last input, .form-email input, .form-subject input{ 
+    padding: 6px 12px;
+}
+
+.form-email, .form-subject, .form-message, .form-submit{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    padding: 0px 15px;
+}
+
+.form-message textarea{
+    height: 200px;
+    padding: 6px 12px;
+}
+
+.form-submit input{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #00d2b5;
+    color: white;
+    border-color: #8faca8;
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+}
+
+.footer{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+.footer p{
+    color: #6c757d; 
 }
