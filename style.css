@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.nav-page{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: -webkit-fill-available;
+    height: 57px;
+    left: 0px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: -4px 8px 10px -7px rgba(0,0,0,0.75);  
+}
+
+.nav-list{
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list li{
+    flex-direction: column;
+    display: flex;
+}
+
+.section-one{
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    padding: 0px 100px 0px 100px;
+    margin-top: 84px;
+    height: 500px;
+}
+
+.section-title{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.section-title i{
+    color: #00d2b5;
+}
+
+.section-row-one{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.section-colum-one{
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    align-items: baseline;
+}
+
+.section-colum-two{
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+}
+
+.section-colum-two img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #000;
+    font-weight: 900;
+}
+
+.section-colum-one p{
+    color: #6c757d;
+    margin: 0px 0px 48px;
+}
+
+.section-colum-one button{
+    border-style: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #00d2b5;
+    color: white;
+    border-color: #8faca8;
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+}
+
+.section-two{
+    flex-direction: column;
+    display: flex;
+    padding: 80px 100px 80px 100px;
+}
+
+.section-row-two{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.section-two-colum-one, .section-two-colum-two,
+.section-two-colum-three, .section-two-colum-four,
+.section-two-colum-five, .section-two-colum-six{
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 15px 15px 24px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.section-icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #00d2b5;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+    margin: 0px 0px 16px;
+}
+
+.fa-sync-alt, .fa-store-alt, .fa-shopping-bag,
+.fa-undo-alt, .fa-smile, .fa-plug{
+    color: #ffffff;
+}
+
+.section-words p{
+    color: #6c757d;
+}
+
+.section-words p>a{
+    text-decoration: none;
+    color: #00d2b5;
+}
+
+.section-words h3{
+    margin: 0px 0px 8px;
+}
+
+.section-words p{
+    margin: 0px 0px 16px;
+}
+
+.section-three{
+    flex-direction: row;
+    display: flex;
+    background-color: white;
+    padding: 80px 100px 80px 100px;
+    height: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-three-colum-one{
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+
+.section-three-colum-one img{
+    width: 500px;
+    height: auto;
+}
+
+.section-three-colum-two{
+    flex-direction: column;
+    display: flex;
+    width: 450px;
+    padding: 0px 15px 0px 48px;
+}
+
+.section-three-colum-two h2{
+    margin: 0px 0px 30px;
+}
+
+.section-three-colum-two p{
+    margin: 0px 0px 24px;
+    color: #6c757d;
+}
+
+.section-three-colum-two ul{
+    list-style-type: none;
+}
+
+.section-three-colum-two ul>li{
+    margin: 0px 0px 15px;
+    color: #6c757d;
+}
+
+.fa-check{
+    color: rgb(144, 236, 116);
+}
+
+.section-three-row-two img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
+.section-three-row-two{
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #eee;
+    display: flex;
+}
+
+.section-three-row{
+    flex-direction: row;
+    display: flex;
+}
+
+.section-four{
+    flex-direction: column;
+    display: flex;
+    padding: 80px 100px 80px 100px;
+}
+
+.section-four-row{
+    flex-direction: row;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly
+}
+
+.section-four-colum-one{
+    flex-direction: column;
+    display: flex;
+}
+
+.section-four-colum-one img{
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.section-four-colum-two{
+    width: 470px;
+    height: 360px;
+    margin-right: 100px;
+    padding: 0px 15px 0px 48px
+}
+
+.section-four-colum-two button{
+    border-style: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #00d2b5;
+    color: white;
+    border-color: #8faca8;
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+}
+
+.section-four-colum-two h3{
+    margin: 0px 0px 24px;
+}
+
+.section-four-colum-two p{
+    margin: 0px 0px 24px;
+    color: #6c757d;
+}
+
+.section-five{
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    padding: 80px 100px 80px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-five-colum{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-five-row-one{
+margin: 0px 350px 16px;
+}
+
+.section-five-row-two p{
+    margin: 0px 0px 16px;
+    color: #6c757d;
+}
+
+.section-five-row-two strong{
+    margin: 0px 0px 16px;
+}
+
+.section-five-row-one img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.section-five-row-two{
+    width: 800px;
+}
+
+.section-five-row-three{
+    margin: 24px 0px 0px;
+}
+
+.fa-circle{
+    font-size: 10px;
+    color: #6c757d;
+}
