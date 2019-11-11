@@ -418,25 +418,18 @@ h1{
 }
 
 @media (max-width: 768px){
+    
+
     .section-row-one {
-        flex-direction: row;
-        display: flex;
-        align-items: center;
         flex-wrap: wrap-reverse;
     }
 
     .section-four-colum-two {
-        width: 470px;
-        height: 360px;
-        /* margin-right: 100px; */
+        margin-right: 0px;
         margin-top: 100px;
-        padding: 0px 15px 0px 48px;
     }
     
     .section-colum-one {
-        flex-direction: column;
-        display: flex;
-        align-items: baseline;
         padding: 100px 0px;
     }
     
@@ -460,33 +453,36 @@ h1{
         color: black !important;
         font-size: x-large;
     }
+
+    .form-name-first, .form-name-last{
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px){
+
+    .nav-page {
+        padding: 0px 10px;
+    }
+
     .section-three-colum-one img {
         width: 300px;
-        height: auto;
     }
 
     .section-four-colum-one img {
         width: 300px;
-        height: auto;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        
     }
 
     .form-name {
-        display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .section-one, .section-two, .section-three, .section-four, .section-five, .section-six{
-        padding: 0px 10px 0px 10px;
+        padding: 40px 10px 40px 10px;
     }
 
-    .form-contact {
-        background-color: #ffffff;
-        padding: 48px;
+    .form-contact{
         margin: 80px 0px;
     }
 }
